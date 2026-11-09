@@ -1,0 +1,9 @@
+# Protect live SOC Webhook & API keys
+discord_webhook_url.txt
+*.env
+
+# Exclude local runtime telemetry & SQLite databases
+cryo_forensics.db
+cryo_siem_stream.json
+cryo_siem_events.json
+__pycache__/
